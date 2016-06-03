@@ -11,6 +11,24 @@
 		823F36ED1CFEBE5600F19B1A /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F36EC1CFEBE5600F19B1A /* CalculatorViewController.m */; };
 		823F36F31CFEBED800F19B1A /* ChangePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F36F21CFEBED800F19B1A /* ChangePwdViewController.m */; };
 		823F36F61CFEBEFE00F19B1A /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F36F51CFEBEFE00F19B1A /* MyInfoViewController.m */; };
+		823F371A1D000C3500F19B1A /* SeniorSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F37191D000C3500F19B1A /* SeniorSearchViewController.m */; };
+		823F372F1D00239800F19B1A /* TYAlertController+TransitionAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F371C1D00239800F19B1A /* TYAlertController+TransitionAnimate.m */; };
+		823F37301D00239800F19B1A /* TYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F371E1D00239800F19B1A /* TYAlertController.m */; };
+		823F37311D00239800F19B1A /* TYAlertDropDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F37201D00239800F19B1A /* TYAlertDropDownAnimation.m */; };
+		823F37321D00239800F19B1A /* TYAlertFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F37221D00239800F19B1A /* TYAlertFadeAnimation.m */; };
+		823F37331D00239800F19B1A /* TYAlertScaleFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F37241D00239800F19B1A /* TYAlertScaleFadeAnimation.m */; };
+		823F37341D00239800F19B1A /* TYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F37261D00239800F19B1A /* TYAlertView.m */; };
+		823F37351D00239800F19B1A /* TYBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F37281D00239800F19B1A /* TYBaseAnimation.m */; };
+		823F37361D00239800F19B1A /* TYShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F372A1D00239800F19B1A /* TYShowAlertView.m */; };
+		823F37371D00239800F19B1A /* UIView+TYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F372C1D00239800F19B1A /* UIView+TYAlertView.m */; };
+		823F37381D00239800F19B1A /* UIView+TYAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F372E1D00239800F19B1A /* UIView+TYAutoLayout.m */; };
+		823F37741D0110F300F19B1A /* NSCalendar+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F37661D0110F300F19B1A /* NSCalendar+ST.m */; };
+		823F37751D0110F300F19B1A /* STPickerDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F37681D0110F300F19B1A /* STPickerDate.m */; };
+		823F37761D0110F300F19B1A /* STConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F376C1D0110F300F19B1A /* STConst.m */; };
+		823F37771D0110F300F19B1A /* STUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F376E1D0110F300F19B1A /* STUI.m */; };
+		823F37781D0110F300F19B1A /* UIView+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F37701D0110F300F19B1A /* UIView+ST.m */; };
+		823F37791D0110F300F19B1A /* STPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F37731D0110F300F19B1A /* STPickerView.m */; };
+		823F377C1D01538900F19B1A /* ContactsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F377B1D01538900F19B1A /* ContactsTableViewCell.m */; };
 		827E9D2D1CFE848C002F94EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 827E9D2C1CFE848C002F94EC /* main.m */; };
 		827E9D301CFE848C002F94EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 827E9D2F1CFE848C002F94EC /* AppDelegate.m */; };
 		827E9D331CFE848C002F94EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827E9D321CFE848C002F94EC /* ViewController.m */; };
@@ -53,6 +71,42 @@
 		823F36F21CFEBED800F19B1A /* ChangePwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePwdViewController.m; sourceTree = "<group>"; };
 		823F36F41CFEBEFE00F19B1A /* MyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoViewController.h; sourceTree = "<group>"; };
 		823F36F51CFEBEFE00F19B1A /* MyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoViewController.m; sourceTree = "<group>"; };
+		823F37181D000C3500F19B1A /* SeniorSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeniorSearchViewController.h; sourceTree = "<group>"; };
+		823F37191D000C3500F19B1A /* SeniorSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeniorSearchViewController.m; sourceTree = "<group>"; };
+		823F371C1D00239800F19B1A /* TYAlertController+TransitionAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYAlertController+TransitionAnimate.m"; sourceTree = "<group>"; };
+		823F371D1D00239800F19B1A /* TYAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertController.h; sourceTree = "<group>"; };
+		823F371E1D00239800F19B1A /* TYAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertController.m; sourceTree = "<group>"; };
+		823F371F1D00239800F19B1A /* TYAlertDropDownAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertDropDownAnimation.h; sourceTree = "<group>"; };
+		823F37201D00239800F19B1A /* TYAlertDropDownAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertDropDownAnimation.m; sourceTree = "<group>"; };
+		823F37211D00239800F19B1A /* TYAlertFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertFadeAnimation.h; sourceTree = "<group>"; };
+		823F37221D00239800F19B1A /* TYAlertFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertFadeAnimation.m; sourceTree = "<group>"; };
+		823F37231D00239800F19B1A /* TYAlertScaleFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertScaleFadeAnimation.h; sourceTree = "<group>"; };
+		823F37241D00239800F19B1A /* TYAlertScaleFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertScaleFadeAnimation.m; sourceTree = "<group>"; };
+		823F37251D00239800F19B1A /* TYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertView.h; sourceTree = "<group>"; };
+		823F37261D00239800F19B1A /* TYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertView.m; sourceTree = "<group>"; };
+		823F37271D00239800F19B1A /* TYBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBaseAnimation.h; sourceTree = "<group>"; };
+		823F37281D00239800F19B1A /* TYBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBaseAnimation.m; sourceTree = "<group>"; };
+		823F37291D00239800F19B1A /* TYShowAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYShowAlertView.h; sourceTree = "<group>"; };
+		823F372A1D00239800F19B1A /* TYShowAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYShowAlertView.m; sourceTree = "<group>"; };
+		823F372B1D00239800F19B1A /* UIView+TYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYAlertView.h"; sourceTree = "<group>"; };
+		823F372C1D00239800F19B1A /* UIView+TYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYAlertView.m"; sourceTree = "<group>"; };
+		823F372D1D00239800F19B1A /* UIView+TYAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYAutoLayout.h"; sourceTree = "<group>"; };
+		823F372E1D00239800F19B1A /* UIView+TYAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYAutoLayout.m"; sourceTree = "<group>"; };
+		823F37651D0110F300F19B1A /* NSCalendar+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+ST.h"; sourceTree = "<group>"; };
+		823F37661D0110F300F19B1A /* NSCalendar+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+ST.m"; sourceTree = "<group>"; };
+		823F37671D0110F300F19B1A /* STPickerDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPickerDate.h; sourceTree = "<group>"; };
+		823F37681D0110F300F19B1A /* STPickerDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPickerDate.m; sourceTree = "<group>"; };
+		823F376A1D0110F300F19B1A /* STConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STConfig.h; sourceTree = "<group>"; };
+		823F376B1D0110F300F19B1A /* STConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STConst.h; sourceTree = "<group>"; };
+		823F376C1D0110F300F19B1A /* STConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STConst.m; sourceTree = "<group>"; };
+		823F376D1D0110F300F19B1A /* STUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STUI.h; sourceTree = "<group>"; };
+		823F376E1D0110F300F19B1A /* STUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STUI.m; sourceTree = "<group>"; };
+		823F376F1D0110F300F19B1A /* UIView+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ST.h"; sourceTree = "<group>"; };
+		823F37701D0110F300F19B1A /* UIView+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ST.m"; sourceTree = "<group>"; };
+		823F37721D0110F300F19B1A /* STPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPickerView.h; sourceTree = "<group>"; };
+		823F37731D0110F300F19B1A /* STPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPickerView.m; sourceTree = "<group>"; };
+		823F377A1D01538900F19B1A /* ContactsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewCell.h; sourceTree = "<group>"; };
+		823F377B1D01538900F19B1A /* ContactsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewCell.m; sourceTree = "<group>"; };
 		827E9D281CFE848C002F94EC /* EstateSales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EstateSales.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		827E9D2C1CFE848C002F94EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		827E9D2E1CFE848C002F94EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +160,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		823F371B1D00239800F19B1A /* TYAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				823F371C1D00239800F19B1A /* TYAlertController+TransitionAnimate.m */,
+				823F371D1D00239800F19B1A /* TYAlertController.h */,
+				823F371E1D00239800F19B1A /* TYAlertController.m */,
+				823F371F1D00239800F19B1A /* TYAlertDropDownAnimation.h */,
+				823F37201D00239800F19B1A /* TYAlertDropDownAnimation.m */,
+				823F37211D00239800F19B1A /* TYAlertFadeAnimation.h */,
+				823F37221D00239800F19B1A /* TYAlertFadeAnimation.m */,
+				823F37231D00239800F19B1A /* TYAlertScaleFadeAnimation.h */,
+				823F37241D00239800F19B1A /* TYAlertScaleFadeAnimation.m */,
+				823F37251D00239800F19B1A /* TYAlertView.h */,
+				823F37261D00239800F19B1A /* TYAlertView.m */,
+				823F37271D00239800F19B1A /* TYBaseAnimation.h */,
+				823F37281D00239800F19B1A /* TYBaseAnimation.m */,
+				823F37291D00239800F19B1A /* TYShowAlertView.h */,
+				823F372A1D00239800F19B1A /* TYShowAlertView.m */,
+				823F372B1D00239800F19B1A /* UIView+TYAlertView.h */,
+				823F372C1D00239800F19B1A /* UIView+TYAlertView.m */,
+				823F372D1D00239800F19B1A /* UIView+TYAutoLayout.h */,
+				823F372E1D00239800F19B1A /* UIView+TYAutoLayout.m */,
+			);
+			path = TYAlertController;
+			sourceTree = "<group>";
+		};
+		823F37631D0110F300F19B1A /* STPickerViewDate */ = {
+			isa = PBXGroup;
+			children = (
+				823F37641D0110F300F19B1A /* Date(日期) */,
+				823F37691D0110F300F19B1A /* STConfig */,
+				823F37711D0110F300F19B1A /* STPickerView */,
+			);
+			path = STPickerViewDate;
+			sourceTree = "<group>";
+		};
+		823F37641D0110F300F19B1A /* Date(日期) */ = {
+			isa = PBXGroup;
+			children = (
+				823F37651D0110F300F19B1A /* NSCalendar+ST.h */,
+				823F37661D0110F300F19B1A /* NSCalendar+ST.m */,
+				823F37671D0110F300F19B1A /* STPickerDate.h */,
+				823F37681D0110F300F19B1A /* STPickerDate.m */,
+			);
+			path = "Date(日期)";
+			sourceTree = "<group>";
+		};
+		823F37691D0110F300F19B1A /* STConfig */ = {
+			isa = PBXGroup;
+			children = (
+				823F376A1D0110F300F19B1A /* STConfig.h */,
+				823F376B1D0110F300F19B1A /* STConst.h */,
+				823F376C1D0110F300F19B1A /* STConst.m */,
+				823F376D1D0110F300F19B1A /* STUI.h */,
+				823F376E1D0110F300F19B1A /* STUI.m */,
+				823F376F1D0110F300F19B1A /* UIView+ST.h */,
+				823F37701D0110F300F19B1A /* UIView+ST.m */,
+			);
+			path = STConfig;
+			sourceTree = "<group>";
+		};
+		823F37711D0110F300F19B1A /* STPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				823F37721D0110F300F19B1A /* STPickerView.h */,
+				823F37731D0110F300F19B1A /* STPickerView.m */,
+			);
+			path = STPickerView;
+			sourceTree = "<group>";
+		};
 		827E9D1F1CFE848C002F94EC = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +317,8 @@
 		827E9D601CFE85DB002F94EC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				823F377A1D01538900F19B1A /* ContactsTableViewCell.h */,
+				823F377B1D01538900F19B1A /* ContactsTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +328,8 @@
 			children = (
 				827E9D791CFE87C8002F94EC /* ContactsViewController.h */,
 				827E9D7A1CFE87C8002F94EC /* ContactsViewController.m */,
+				823F37181D000C3500F19B1A /* SeniorSearchViewController.h */,
+				823F37191D000C3500F19B1A /* SeniorSearchViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -292,6 +420,8 @@
 		827E9D6B1CFE85DB002F94EC /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				823F37631D0110F300F19B1A /* STPickerViewDate */,
+				823F371B1D00239800F19B1A /* TYAlertController */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -440,15 +570,33 @@
 				827E9D721CFE8785002F94EC /* TabBarViewController.m in Sources */,
 				827E9D7B1CFE87C8002F94EC /* ContactsViewController.m in Sources */,
 				823F36F61CFEBEFE00F19B1A /* MyInfoViewController.m in Sources */,
+				823F37751D0110F300F19B1A /* STPickerDate.m in Sources */,
 				823F36ED1CFEBE5600F19B1A /* CalculatorViewController.m in Sources */,
+				823F37351D00239800F19B1A /* TYBaseAnimation.m in Sources */,
+				823F37761D0110F300F19B1A /* STConst.m in Sources */,
+				823F37371D00239800F19B1A /* UIView+TYAlertView.m in Sources */,
 				827E9D751CFE87B1002F94EC /* TaskViewController.m in Sources */,
+				823F37321D00239800F19B1A /* TYAlertFadeAnimation.m in Sources */,
+				823F377C1D01538900F19B1A /* ContactsTableViewCell.m in Sources */,
 				827E9D331CFE848C002F94EC /* ViewController.m in Sources */,
 				827E9D6F1CFE876C002F94EC /* BaseViewController.m in Sources */,
+				823F37311D00239800F19B1A /* TYAlertDropDownAnimation.m in Sources */,
+				823F37781D0110F300F19B1A /* UIView+ST.m in Sources */,
+				823F37301D00239800F19B1A /* TYAlertController.m in Sources */,
+				823F37771D0110F300F19B1A /* STUI.m in Sources */,
 				827E9D301CFE848C002F94EC /* AppDelegate.m in Sources */,
 				823F36F31CFEBED800F19B1A /* ChangePwdViewController.m in Sources */,
+				823F37791D0110F300F19B1A /* STPickerView.m in Sources */,
 				823F36E71CFEBBB100F19B1A /* MyCustomersViewController.m in Sources */,
+				823F37341D00239800F19B1A /* TYAlertView.m in Sources */,
+				823F372F1D00239800F19B1A /* TYAlertController+TransitionAnimate.m in Sources */,
 				827E9D781CFE87BB002F94EC /* MoreViewController.m in Sources */,
+				823F37331D00239800F19B1A /* TYAlertScaleFadeAnimation.m in Sources */,
+				823F371A1D000C3500F19B1A /* SeniorSearchViewController.m in Sources */,
 				827E9D2D1CFE848C002F94EC /* main.m in Sources */,
+				823F37381D00239800F19B1A /* UIView+TYAutoLayout.m in Sources */,
+				823F37361D00239800F19B1A /* TYShowAlertView.m in Sources */,
+				823F37741D0110F300F19B1A /* NSCalendar+ST.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

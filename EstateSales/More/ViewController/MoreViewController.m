@@ -49,9 +49,11 @@
     });
     [self.view addSubview:_tableView];
     
-    _logoutBtn = [[UIButton alloc]initWithFrame:CGRectMake(20, self.view.frame.size.height - 192, self.view.bounds.size.width-40, 44)];
+    _logoutBtn = [[UIButton alloc]initWithFrame:CGRectMake(20, self.view.frame.size.height - 192, self.view.bounds.size.width-40, heightBtn)];
     [_logoutBtn setTitle:@"注销" forState:UIControlStateNormal];
-    _logoutBtn.backgroundColor = [UIColor colorWithRed:88/255.0 green:159/255.0 blue:223/255.0 alpha:1];
+    _logoutBtn.backgroundColor = [UIColor colorWithRed:111/255.0 green:172/255.0 blue:226/255.0 alpha:1];
+    _logoutBtn.layer.cornerRadius=3.0f;
+    [_logoutBtn addTarget:self action:@selector(logout:) forControlEvents:UIControlEventTouchUpInside];
     [_tableView addSubview:_logoutBtn];
 }
 
@@ -127,6 +129,10 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
+- (void)logout:(UIButton *)btn
+{
+    NSLog(@"logout");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -57,7 +57,7 @@
     _bindPhoneNumber = [[UIButton alloc]initWithFrame:CGRectMake(self.view.bounds.size.width - 100, 10, 90, 30)];
     _bindPhoneNumber.backgroundColor = [UIColor redColor];
     [_bindPhoneNumber setTitle:@"绑定手机号码" forState:UIControlStateNormal];
-    _bindPhoneNumber.titleLabel.font = [UIFont systemFontOfSize: 12.0];
+    _bindPhoneNumber.titleLabel.font = [UIFont systemFontOfSize: 13.0];
     _bindPhoneNumber.layer.cornerRadius = 10.0f;
     [phonebtn addSubview:_bindPhoneNumber];
     [_bindPhoneNumber addTarget:self action:@selector(bindPhoneNumber:) forControlEvents:UIControlEventTouchUpInside];

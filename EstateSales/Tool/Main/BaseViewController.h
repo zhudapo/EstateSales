@@ -13,4 +13,5 @@
 - (void)addRightBtnWithImgName:(NSString *)imgName andSelector:(SEL)sel;
 //右边按钮
 - (void)addRightBtnWithStr:(NSString *)str andSelector:(SEL)sel;
+
 @end
