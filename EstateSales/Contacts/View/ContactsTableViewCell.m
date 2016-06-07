@@ -75,6 +75,7 @@
         [self.contentView addSubview:_callSatuts];
         
         _callImage = [[UIButton alloc]init];
+        [_callImage addTarget:self action:@selector(callSomeOne) forControlEvents:UIControlEventTouchUpInside];
         //_callImage.backgroundColor = [UIColor grayColor];
         [self.contentView addSubview:_callImage];
     }
@@ -94,14 +95,14 @@
     _callTime.frame = CGRectMake(130, 35, 80, 10);
     
     _remark.frame = CGRectMake(15, 55, 30, 20);
-    _remarkDetail.frame = CGRectMake(47, 55, self.bounds.size.width - 57, 20);
+    _remarkDetail.frame = CGRectMake(47, 55, self.bounds.size.width - 90, 20);
     
     _callImage.frame = CGRectMake(self.bounds.size.width -60, 30, 30, 30);
 }
 
 - (void)setContents
 {
-    _firstName.text = @"Jose";
+    _firstName.text = @"朱";
     _secondName.text = @"先生";
     [_visitStatus setTitle:@"未到访" forState:UIControlStateNormal];
     [_callSatuts setTitle:@"号码错" forState:UIControlStateNormal];
@@ -112,10 +113,26 @@
     [_callImage setImage:[UIImage imageNamed:@"add_friend_icon_contacts"] forState:UIControlStateNormal];
 }
 
+- (void)setContents:(NSArray *)array
+{
+    _firstName.text = array[0];
+    _secondName.text = array[1];
+    [_visitStatus setTitle:array[2] forState:UIControlStateNormal];
+    [_callSatuts setTitle:array[3] forState:UIControlStateNormal];
+    _phoneNumber.text = array[4];
+    _callTime.text = array[5];
+    _remark.text = array[6];
+    _remarkDetail.text = array[7];
+    [_callImage setImage:[UIImage imageNamed:array[8]] forState:UIControlStateNormal];
+}
+
+- (void)callSomeOne
+{
+    NSLog(@"我在呼叫了");
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-
-    
 }
 
 @end

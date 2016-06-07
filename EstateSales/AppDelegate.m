@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import "TabBarViewController.h"
+#import "IQKeyboardManager.h"
+#import "LoginViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -19,7 +22,10 @@
     self.window.bounds = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    self.window.rootViewController = [[TabBarViewController alloc]init];
+    //[IQKeyboardManager sharedManager].enableAutoToolbar = NO;
+    //self.window.rootViewController = [[TabBarViewController alloc]init];
+    self.window.rootViewController = [[LoginViewController alloc]init];
+    
     [self changeNav];
     return YES;
 }

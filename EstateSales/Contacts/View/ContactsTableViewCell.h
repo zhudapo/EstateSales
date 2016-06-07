@@ -10,4 +10,5 @@
 
 @interface ContactsTableViewCell : UITableViewCell
 - (void)setContents;
+- (void)setContents:(NSArray *)array;
 @end

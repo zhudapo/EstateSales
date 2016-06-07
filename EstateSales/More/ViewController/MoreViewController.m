@@ -131,6 +131,7 @@
 
 - (void)logout:(UIButton *)btn
 {
+    [self dismissViewControllerAnimated:YES completion:nil];
     NSLog(@"logout");
 }
 - (void)didReceiveMemoryWarning {
