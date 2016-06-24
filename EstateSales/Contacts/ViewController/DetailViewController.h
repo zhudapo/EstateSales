@@ -8,6 +8,8 @@
 
 #import "BaseViewController.h"
 
+
 @interface DetailViewController : BaseViewController
 @property (nonatomic, strong) NSArray *array;
+
 @end

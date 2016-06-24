@@ -23,8 +23,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     //[IQKeyboardManager sharedManager].enableAutoToolbar = NO;
-    //self.window.rootViewController = [[TabBarViewController alloc]init];
-    self.window.rootViewController = [[LoginViewController alloc]init];
+    self.window.rootViewController = [[TabBarViewController alloc]init];
+    //self.window.rootViewController = [[LoginViewController alloc]init];
     
     [self changeNav];
     return YES;
