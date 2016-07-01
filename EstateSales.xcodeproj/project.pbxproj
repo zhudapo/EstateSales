@@ -76,6 +76,7 @@
 		823F38251D068EE000F19B1A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F38171D068EE000F19B1A /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		823F38261D068EE000F19B1A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F38191D068EE000F19B1A /* View+MASAdditions.m */; };
 		823F38271D068EE000F19B1A /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 823F381C1D068EE000F19B1A /* ViewController+MASAdditions.m */; };
+		824D4E1B1D24E44000389260 /* ContactsDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 824D4E1A1D24E44000389260 /* ContactsDetailTableViewCell.m */; };
 		827E9D2D1CFE848C002F94EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 827E9D2C1CFE848C002F94EC /* main.m */; };
 		827E9D301CFE848C002F94EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 827E9D2F1CFE848C002F94EC /* AppDelegate.m */; };
 		827E9D331CFE848C002F94EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827E9D321CFE848C002F94EC /* ViewController.m */; };
@@ -254,6 +255,8 @@
 		823F381A1D068EE000F19B1A /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		823F381B1D068EE000F19B1A /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		823F381C1D068EE000F19B1A /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		824D4E191D24E44000389260 /* ContactsDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsDetailTableViewCell.h; sourceTree = "<group>"; };
+		824D4E1A1D24E44000389260 /* ContactsDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsDetailTableViewCell.m; sourceTree = "<group>"; };
 		827E9D281CFE848C002F94EC /* EstateSales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EstateSales.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		827E9D2C1CFE848C002F94EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		827E9D2E1CFE848C002F94EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -671,6 +674,8 @@
 			children = (
 				823F377A1D01538900F19B1A /* ContactsTableViewCell.h */,
 				823F377B1D01538900F19B1A /* ContactsTableViewCell.m */,
+				824D4E191D24E44000389260 /* ContactsDetailTableViewCell.h */,
+				824D4E1A1D24E44000389260 /* ContactsDetailTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -953,6 +958,7 @@
 				823F37F41D0670B600F19B1A /* IQUIViewController+Additions.m in Sources */,
 				823F37B91D05080700F19B1A /* MJRefreshConst.m in Sources */,
 				823F37321D00239800F19B1A /* TYAlertFadeAnimation.m in Sources */,
+				824D4E1B1D24E44000389260 /* ContactsDetailTableViewCell.m in Sources */,
 				823F377C1D01538900F19B1A /* ContactsTableViewCell.m in Sources */,
 				827E9D331CFE848C002F94EC /* ViewController.m in Sources */,
 				823F37F81D0670B600F19B1A /* IQTextView.m in Sources */,

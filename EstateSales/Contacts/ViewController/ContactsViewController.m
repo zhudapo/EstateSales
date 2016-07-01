@@ -30,6 +30,9 @@
     [self setupTableview];
     [self setupRefresh];
     
+    //NSLog(@"%@",[NSThread currentThread]);
+    
+    
     _array = @[@[@"朱",@"先生",@"未到访",@"号码错",@"18506922901",@"2016-06-03",@"备注:",@"我就是一条单纯的备注",@"add_friend_icon_contacts"],
                @[@"丁",@"女士",@"有意向",@"啦啦啦",@"18650464053",@"2016-06-06",@"备注:",@"林庆福是逗逼林庆福是逗逼林庆福是逗逼林庆福是逗逼林庆福是逗逼林庆福是逗逼",@"add_friend_icon_contacts"],
                @[@"张",@"先生",@"未到访",@"号码错",@"18506922901",@"2016-06-06",@"备注:",@"我就是一条单纯的备注",@"add_friend_icon_contacts"],
@@ -163,6 +166,8 @@
 //    for (int i = 0; i<5; i++) {
 //        [self.data insertObject:MJRandomData atIndex:0];
 //    }
+    
+    
     
     // 2.模拟2秒后刷新表格UI（真实开发中，可以移除这段gcd代码）
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{

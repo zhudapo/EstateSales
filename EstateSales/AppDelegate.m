@@ -22,7 +22,7 @@
     self.window.bounds = [UIScreen mainScreen].bounds;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    //[IQKeyboardManager sharedManager].enableAutoToolbar = NO;
+    [IQKeyboardManager sharedManager].enableAutoToolbar = NO;
     self.window.rootViewController = [[TabBarViewController alloc]init];
     //self.window.rootViewController = [[LoginViewController alloc]init];
     
