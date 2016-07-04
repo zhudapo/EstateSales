@@ -595,8 +595,6 @@
 {
     
     _sexBtn.titleLabel.text = [btn.titleLabel.text stringByReplacingOccurrencesOfString:@" " withString:@""];
-    
-    NSLog(@"%@",btn.titleLabel.text);
     [self chooseSexSubmit];
 }
 
